@@ -39,6 +39,5 @@ jobs:
           WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
         run: |
           if [ -d "./tests/" ]; then
-            cp .env.example .env
             rye run pytest -s
           fi
