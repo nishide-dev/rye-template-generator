@@ -16,6 +16,8 @@ cfgv==3.4.0
     # via pre-commit
 distlib==0.3.8
     # via virtualenv
+exceptiongroup==1.2.2
+    # via pytest
 filelock==3.13.4
     # via virtualenv
 identify==2.5.36
@@ -45,6 +47,8 @@ pyyaml==6.0.1
 ruff==0.4.1
 setuptools==69.5.1
     # via nodeenv
+tomli==2.1.0
+    # via pytest
 tomlkit==0.13.2
     # via rygen
 typing-extensions==4.11.0
