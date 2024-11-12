@@ -13,7 +13,7 @@ from src.lib.utils import (
 )
 
 
-def main(args: Arguments) -> None:
+def generate_template(args: Arguments) -> None:
     target_dir = Path(args.output) / args.name
     target_dir.mkdir(parents=True, exist_ok=True)
 
@@ -32,6 +32,10 @@ def main(args: Arguments) -> None:
     return 0
 
 
-if __name__ == "__main__":
+def main() -> None:
     args: Arguments = Arguments.parse_args()
-    main(args)
+    generate_template(args)
+
+
+if __name__ == "__main__":
+    main()
