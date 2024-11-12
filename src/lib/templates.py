@@ -23,6 +23,11 @@ templates: dict[str, Templates] = {
         url="https://github.com/nishide-dev/pytorch-template",
         description="PyTorch template",
     ),
+    "graph": Templates(
+        name="graph",
+        url="https://github.com/nishide-dev/pytorch-graph-template",
+        description="Pytorch Graph template",
+    ),
     "py": Templates(
         name="py",
         url="https://github.com/nishide-dev/python-template",
