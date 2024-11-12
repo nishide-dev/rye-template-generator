@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 
 # internal imports
-from config import Arguments
+from src.lib.arguments import Arguments
 from src.main import generate_template as main
 
 

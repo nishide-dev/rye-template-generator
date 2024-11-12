@@ -4,7 +4,7 @@ from pathlib import Path
 
 # internal imports
 sys.path.append(str(Path(__file__).parent.parent))
-from config import Arguments
+from src.lib.arguments import Arguments
 from src.lib.utils import (
     clone_template,
     update_devcontainer_name,
